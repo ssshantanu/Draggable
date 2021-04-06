@@ -1,0 +1,24 @@
+#one{
+    border: 1px solid;
+    width: 150px;
+    height: 180px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+}
+#but{
+    background-color: #cac7c7;
+    border: 1px solid;
+    border-radius: 1px;
+    width: 130px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+#my{
+    background-color: yellow;
+    width: 130px;
+    height: 140px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}

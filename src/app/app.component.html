@@ -1,0 +1,65 @@
+<!-- 
+<div class="container">
+
+  <div class="row d-flex flew-row" style="background-color: coral;">
+
+    <div *ngFor = 'let x of list1' [dragula]="boxes" [(dragulaModel)]='list1'>
+      <div id="one">{{x}}</div>
+    </div>
+
+  </div>
+  <br><br>
+
+
+  <div class="row d-flex flew-row" style="background-color: rgb(138, 166, 190)">
+    <div id="one">
+      <div id="but">Drag Here</div>
+      <div id="my">I have long scrollable content with a handle <br>
+        x<br>x<br>x<br>x <br>x<br>x <br>x<br>x <br>x<br>x <br>x<br>x 
+        <br>x<br>x <br>x<br>x<br>x<br>x <br>x<br>x <br>x<br>x   
+      </div>
+    </div>
+
+    <div id="one">
+      <div id="but">Can't drag Here</div>
+      <div>Dragging here works</div>
+    </div>
+
+
+  </div>
+  
+</div> -->
+
+
+<!-- <div class='container' [dragula]="MANY_ITEMS" [(dragulaModel)]='many'>
+  <div *ngFor='let text of many' [innerHtml]='text'></div>
+</div>
+<div class='container' [dragula]="MANY_ITEMS" [(dragulaModel)]='many2'>
+  <div *ngFor='let text of many2' [innerHtml]='text'></div>
+</div> -->
+
+<div>
+  <div class="container">
+    
+    <div class="row d-flex flew-row" dragula="d">
+      <div id="one" class="handle">I can be dragged anywhere</div>
+      <div id="one" class="handle">I can only be dragged horizontally (x-axis)</div>
+
+    </div>
+    <br>
+    <div class="row d-flex flew-row" dragula="d">
+     
+      <div id="one">
+        <div id="but" class="handle">Drag Here</div>
+        <div id="my">I have long scrollable content with a handle <br>
+          x<br>x<br>x<br>x <br>x<br>x <br>x<br>x <br>x<br>x <br>x<br>x 
+          <br>x<br>x <br>x<br>x<br>x<br>x <br>x<br>x <br>x<br>x   
+        </div>
+      </div>
+  
+      <div id="one">
+        <div id="but">Can't drag Here</div>
+        <div class="handle" style="width: 100%;height: 100%">Dragging here works</div>
+      </div>
+  </div>
+</div>
